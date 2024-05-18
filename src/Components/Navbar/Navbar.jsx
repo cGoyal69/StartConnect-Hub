@@ -41,7 +41,7 @@ const Navbar = () => {
   const scrollToTestimonials = () => {
     scroller.scrollTo("testimonials", {
       smooth: true,
-      offset: -260,
+      offset: -150,
       duration: 500,
     });
   };
@@ -49,7 +49,7 @@ const Navbar = () => {
   const scrollToFAQ = () => {
     scroller.scrollTo("accordian", {
       smooth: true,
-      offset: -260,
+      offset: -200,
       duration: 500,
     });
   };
